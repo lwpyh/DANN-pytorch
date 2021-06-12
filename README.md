@@ -1,5 +1,5 @@
 # DANN
-PyTorch implementation for [DANN：Domain-Adversarial Training of Neural Networks]
+A PyTorch implementation for Unsupervised Domain Adaptation by Backpropagation
 
 ## Prerequisites
 Linux or OSX
