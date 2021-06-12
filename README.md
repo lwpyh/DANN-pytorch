@@ -11,10 +11,10 @@ Python 2.7/3.5
 ## Datasets
 This responsity support Office-31 and Office-Home dataset 
 ```
-
-```
 cd src
 python train_DANN.py --gpu_id 0 --net ResNet50 --dset office --s_dset_path ../data/office/webcam_31_list.txt --t_dset_path ../data/office/amazon_31_list.txt --test_interval 500 --snapshot_interval 5000 --output_dir dann
+```
+
 ```
 You can set the command parameters to switch between different experiments. 
 - "gpu_id" is the GPU ID to run experiments.
