@@ -18,7 +18,7 @@ python train_DANN.py --gpu_id 0 --net ResNet50 --dset office --s_dset_path ../da
 ```
 You can set the command parameters to switch between different experiments. 
 - "gpu_id" is the GPU ID to run experiments.
-- "dset" parameter is the dataset selection. In our experiments, it can be "office" (for all the Office-31 tasks), "office-home" (for all the Office-Home tasks), "imagenet" (for task ImageNet->Caltech) and "caltech" (for Caltech->ImageNet).
+- "dset" parameter is the dataset selection. In our experiments, it can be "office" (for all the Office-31 tasks), "office-home" (for all the Office-Home tasks)
 - "s_dset_path" is the source dataset list.
 - "t_dset_path" is the target dataset list.
 - "test_interval" is the interval of iterations between two test phase.
